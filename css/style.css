@@ -3,6 +3,14 @@
     margin: 0;
     padding: 0;
 }
+main.card{
+    background-color: #090f1a;
+    max-width: 550px;
+    width: 90%;
+    border-radius: 16px;
+    border: 2px solid #9fef00;
+    overflow: hidden;
+}
 
 .profile{
     display: flex;
@@ -24,7 +32,6 @@
 
 .card section{
     width: 90%;
-    max-width: 500px;
     margin: 0 auto;
     border-radius: 12px;
     padding: 20px;
@@ -34,6 +41,7 @@
 .title {
     font-family: 'Courier New', Courier, monospace;
     color: #9fef00;
+    padding: 10px;
 }
 
 .skills ul{
@@ -59,12 +67,15 @@
     padding: 40px;
     margin-bottom: 25px;
     text-align: center;
-    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
 }
 
 .btn-social {
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
+    width: 100%;
     padding: 15px;
     margin: 10px;
     border: solid #9fef00 1px; 
@@ -119,7 +130,6 @@ body{
         font-size: 18px;
     }
     .card {
-        width: 1200px;
         margin: 0 auto;
     }
 }
